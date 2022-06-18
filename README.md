@@ -1,7 +1,8 @@
 # ChatBox
 Minecraft对话框数据包
 
-# 向所有玩家展示对话框
+
+```# 向所有玩家展示对话框
 function chatbox:bossbar/display/on
 
 # 关闭对话框
@@ -23,3 +24,6 @@ function chatbox:bossbar/clear/without_format
 
 # 删除数据包前需要执行的指令
 function #chatbox:uninstall
+```
+
+生成器:[https://sl0ane.github.io/chatbox](https://sl0ane.github.io/chatbox)
