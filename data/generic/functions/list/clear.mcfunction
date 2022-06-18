@@ -1,0 +1,1 @@
+data modify storage generic:main List set value []

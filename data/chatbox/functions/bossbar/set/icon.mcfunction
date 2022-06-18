@@ -1,0 +1,1 @@
+bossbar set chatbox:icon name {"nbt":"IconBuffer[0]","storage": "chatbox:main","interpret": true}

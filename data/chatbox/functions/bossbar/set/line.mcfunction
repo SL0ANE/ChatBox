@@ -1,0 +1,3 @@
+execute if score #chatbox.current.line loy.value matches 0 run bossbar set chatbox:line_0 name {"nbt":"CurrentCombine","storage": "chatbox:main","interpret": true}
+execute if score #chatbox.current.line loy.value matches 1 run bossbar set chatbox:line_1 name {"nbt":"CurrentCombine","storage": "chatbox:main","interpret": true}
+execute if score #chatbox.current.line loy.value matches 2 run bossbar set chatbox:line_2 name {"nbt":"CurrentCombine","storage": "chatbox:main","interpret": true}

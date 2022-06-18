@@ -1,0 +1,1 @@
+execute if score #chatbox.sound loy.value matches 1 as @a at @s run function chatbox:sound/zzz/1
