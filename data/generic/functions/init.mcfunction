@@ -14,3 +14,5 @@ scoreboard players set #360000 loy.value 360000
 scoreboard players set #360 loy.value 360
 
 scoreboard players set #text.space.max loy.value 12
+
+forceload add 0 0
