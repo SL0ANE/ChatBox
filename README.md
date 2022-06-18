@@ -1,6 +1,9 @@
 # ChatBox
 Minecraft对话框数据包
 
+![0](https://attachment.mcbbs.net/data/myattachment/forum/202206/18/152837j8srzt00txax8qt8.gif)  
+![1](https://attachment.mcbbs.net/data/myattachment/forum/202206/18/152836fu1byoc211txa1ou.gif)  
+
 
 ```# 向所有玩家展示对话框
 function chatbox:bossbar/display/on
