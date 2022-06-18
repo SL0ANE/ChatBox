@@ -1,0 +1,11 @@
+{
+    "chatbox.character.sans.0": {
+        "sounds": [
+            {
+                "name": "custom:chatbox/character/sans_0",
+                "pitch": 1.0,
+				"stream":"true"
+            }
+        ]
+    }
+}

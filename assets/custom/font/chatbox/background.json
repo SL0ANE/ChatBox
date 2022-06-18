@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "custom:font/chatbox/background/0.png",
+            "ascent": 28,
+            "height": 128,
+            "chars": ["\ue000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom:font/chatbox/background/1.png",
+            "ascent": 28,
+            "height": 128,
+            "chars": ["\ue001"]
+        }
+    ]
+}
