@@ -1,7 +1,7 @@
 # ChatBox
 Minecraft对话框数据包
 
-![0](https://attachment.mcbbs.net/data/myattachment/forum/202206/18/152837j8srzt00txax8qt8.gif)  
+![0](https://attachment.mcbbs.net/data/myattachment/forum/202206/20/201720ursap4jr264ow4x0.gif)  
 ![1](https://attachment.mcbbs.net/data/myattachment/forum/202206/18/152836fu1byoc211txa1ou.gif)  
 
 
@@ -12,6 +12,7 @@ function chatbox:bossbar/display/on
 function chatbox:bossbar/display/off
 
 # 向对话框的文本缓冲区推入新文本。这段命令可以用下面的网页生成。数据包内有关的测试命令放在了data\chatbox\functions\test目录下
+function chatbox:bossbar/clear/with_all
 data modify storage chatbox:main Buffer set value [{Char:"*",Length:6},{Char:" ",Length:4},{Char:"我",Length:9},{Char:"们",Length:9},{Char:"直",Length:9},{Char:"奔",Length:9},{Char:"主",Length:9},{Char:"题",Length:9},{Char:"吧",Length:9},{Char:"。",Length:9}]
 scoreboard players set #chatbox.text.timer loy.value 0
 
