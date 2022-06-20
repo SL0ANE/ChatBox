@@ -5,7 +5,8 @@ Minecraft对话框数据包
 ![1](https://attachment.mcbbs.net/data/myattachment/forum/202206/18/152836fu1byoc211txa1ou.gif)  
 
 
-```# 向所有玩家展示对话框
+```# 本数据包会在主世界0 0 0的位自留下一个告示牌。
+# 向所有玩家展示对话框
 function chatbox:bossbar/display/on
 
 # 关闭对话框
