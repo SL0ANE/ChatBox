@@ -18,4 +18,4 @@ execute if score #chatbox.text.temp loy.value matches 1.. run function chatbox:m
 
 data remove storage chatbox:main Buffer[0]
 function chatbox:bossbar/set/line
-execute unless data storage chatbox:main Buffer[0] run function chatbox:manage/icon/play
+execute unless data storage chatbox:main Buffer[0] unless data storage chatbox:main {CurrentText:''} run function chatbox:manage/frame/icon/play

@@ -7,10 +7,10 @@ data modify storage chatbox:main CurrentCombine set value ''
 scoreboard players operation #chatbox.combine.length loy.value = #chatbox.pre.length loy.value
 execute if score #chatbox.pre.length loy.value matches 1.. run function chatbox:manage/newchar/zzz/0
 
-execute if data storage chatbox:main Buffer[0].Color run function chatbox:manage/newchar/zzz/2
-execute unless data storage chatbox:main Buffer[0].Color unless score #chatbox.text.length loy.value matches 0 run function chatbox:manage/newchar/zzz/3
-execute unless data storage chatbox:main Buffer[0].Color if score #chatbox.text.length loy.value matches 0 unless data storage chatbox:main PreviousColor run function chatbox:manage/newchar/zzz/3
-execute unless data storage chatbox:main Buffer[0].Color if score #chatbox.text.length loy.value matches 0 if data storage chatbox:main PreviousColor run function chatbox:manage/newchar/zzz/4
+execute if data storage chatbox:main Buffer[0].Format run function chatbox:manage/newchar/zzz/2
+execute unless data storage chatbox:main Buffer[0].Format unless score #chatbox.text.length loy.value matches 0 run function chatbox:manage/newchar/zzz/3
+execute unless data storage chatbox:main Buffer[0].Format if score #chatbox.text.length loy.value matches 0 unless data storage chatbox:main PreviousFormat run function chatbox:manage/newchar/zzz/3
+execute unless data storage chatbox:main Buffer[0].Format if score #chatbox.text.length loy.value matches 0 if data storage chatbox:main PreviousFormat run function chatbox:manage/newchar/zzz/4
 
 execute store result score #chatbox.text.temp loy.value run data get storage chatbox:main Buffer[0].Length 1
 scoreboard players operation #chatbox.text.length loy.value += #chatbox.text.temp loy.value
@@ -27,4 +27,4 @@ execute if score #chatbox.text.temp loy.value matches 1.. run function chatbox:m
 
 data remove storage chatbox:main Buffer[0]
 function chatbox:bossbar/set/line
-execute unless data storage chatbox:main Buffer[0] run function chatbox:manage/icon/play
+execute unless data storage chatbox:main Buffer[0] run function chatbox:manage/frame/icon/play

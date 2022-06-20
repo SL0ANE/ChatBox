@@ -1,4 +1,4 @@
-data modify storage generic:main TextInput0 set from storage chatbox:main PreviousColor
+data modify storage generic:main TextInput0 set from storage chatbox:main PreviousFormat
 data modify storage generic:main TextInput1 set from storage chatbox:main CurrentText
 function generic:text/combine/with_format/do
 data modify storage generic:main TextInput0 set from storage generic:main TextOutput

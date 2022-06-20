@@ -3,15 +3,15 @@
         {
             "type": "bitmap",
             "file": "custom:font/chatbox/background/0.png",
-            "ascent": 28,
-            "height": 128,
+            "ascent": 2,
+            "height": 76,
             "chars": ["\ue000"]
         },
         {
             "type": "bitmap",
             "file": "custom:font/chatbox/background/1.png",
-            "ascent": 28,
-            "height": 128,
+            "ascent": -4,
+            "height": 64,
             "chars": ["\ue001"]
         }
     ]

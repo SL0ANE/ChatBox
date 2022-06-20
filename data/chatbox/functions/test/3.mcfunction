@@ -1,0 +1,3 @@
+function chatbox:bossbar/clear/with_all
+data modify storage chatbox:main Buffer set value [{Char:"粗",Length:10,Format:'{"text":"","bold":true}'},{Char:"体",Length:9},{Char:"不",Length:9,Format:'{"text":"","bold":false}'},{Char:"粗",Length:9},{Char:"体",Length:9},{Char:"粗",Length:10,Format:'{"text":"","bold":true}'},{Char:"体",Length:9},{Next:1b},{Char:"红",Length:10,Format:'{"text":"","bold":true,"color":"#FF2222"}',},{Char:"色",Length:9},{Char:"不",Length:9,Format:'{"text":"","bold":false,"color":"#FFFFFF"}',},{Char:"红",Length:9},{Char:"色",Length:9},{Char:"红",Length:10,Format:'{"text":"","bold":true,"color":"#FF2222"}',},{Char:"色",Length:9}]
+scoreboard players set #chatbox.text.timer loy.value 0
