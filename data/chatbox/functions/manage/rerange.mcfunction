@@ -1,6 +1,6 @@
 execute if score #chatbox.current.line loy.value matches 3.. run function chatbox:bossbar/clear/without_format
 
-data modify storage chatbox:main CurrentCombine set value ''
+data modify storage chatbox:main CurrentCombine set value '{"text":""}'
 
 scoreboard players operation #chatbox.combine.length loy.value = #chatbox.pre.length loy.value
 execute if score #chatbox.pre.length loy.value matches 1.. run function chatbox:manage/newchar/zzz/0
@@ -18,4 +18,4 @@ execute if score #chatbox.text.temp loy.value matches 1.. run function chatbox:m
 
 data remove storage chatbox:main Buffer[0]
 function chatbox:bossbar/set/line
-execute unless data storage chatbox:main Buffer[0] unless data storage chatbox:main {CurrentText:''} run function chatbox:manage/frame/icon/play
+execute unless data storage chatbox:main Buffer[0] unless data storage chatbox:main {CurrentText:'{"text":""}'} run function chatbox:manage/frame/icon/play

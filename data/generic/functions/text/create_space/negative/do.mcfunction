@@ -2,7 +2,7 @@ scoreboard players operation #math.input.0 loy.value = #text.input.0 loy.value
 scoreboard players operation #math.input.1 loy.value = #text.space.max loy.value
 function generic:math/bincon/do
 
-data modify storage generic:main TextOutput set value ""
+data modify storage generic:main TextOutput set value '{"text":"","font":"custom:space"}'
 
 data modify storage generic:main Temp set from storage generic:main BinaryOutput[0]
 execute if data storage generic:main {Temp:1} run function generic:text/create_space/negative/zzz/00
