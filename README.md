@@ -2,7 +2,8 @@
 Minecraft对话框数据包
 
 ![0](https://attachment.mcbbs.net/data/myattachment/forum/202206/20/201720ursap4jr264ow4x0.gif)  
-![1](https://attachment.mcbbs.net/data/myattachment/forum/202206/18/152836fu1byoc211txa1ou.gif)  
+![1](https://attachment.mcbbs.net/data/myattachment/forum/202206/18/152836fu1byoc211txa1ou.gif)
+![2](https://attachment.mcbbs.net/data/myattachment/forum/202206/22/141708vzvsf8iynu8qsuys.gif)  
 
 
 ```
@@ -17,6 +18,9 @@ function chatbox:bossbar/display/off
 function chatbox:bossbar/clear/with_all
 data modify storage chatbox:main Buffer set value [{Char:"*",Length:6},{Char:" ",Length:4},{Char:"我",Length:9},{Char:"们",Length:9},{Char:"直",Length:9},{Char:"奔",Length:9},{Char:"主",Length:9},{Char:"题",Length:9},{Char:"吧",Length:9},{Char:"。",Length:9}]
 scoreboard players set #chatbox.text.timer loy.value 0
+
+# 将文本缓冲区的剩余文本立刻输出到对话框上
+function chatbox:manage/instant/method/buffer_output
 
 # 设置对话框风格。数据包里预制了两种对话框风格，可以参考这些例子制作新的风格。
 function chatbox:style/0
