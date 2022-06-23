@@ -7,7 +7,7 @@ Minecraft对话框数据包
 
 
 ```
-# 本数据包会在主世界0 0 0的位自留下一个告示牌。
+# 本数据包会在主世界0 0 0的位置留下一个告示牌。
 # 向所有玩家展示对话框
 function chatbox:bossbar/display/on
 
