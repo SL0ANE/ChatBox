@@ -22,9 +22,10 @@ scoreboard players set #chatbox.text.timer loy.value 0
 # 将文本缓冲区的剩余文本立刻输出到对话框上
 function chatbox:manage/instant/method/buffer_output
 
-# 设置对话框风格。数据包里预制了两种对话框风格，可以参考这些例子制作新的风格。
+# 设置对话框风格。数据包里预制了三种对话框风格，可以参考这些例子制作新的风格。
 function chatbox:style/0
 function chatbox:style/1
+function chatbox:style/2
 
 # 清空对话框的内容，新的文本的颜色不会与之前的文本颜色同步。
 function chatbox:bossbar/clear/with_format
