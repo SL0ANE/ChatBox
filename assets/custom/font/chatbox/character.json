@@ -13,6 +13,13 @@
             "ascent": -20,
             "height": 28,
             "chars": ["\ue010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom:font/chatbox/character/2.png",
+            "ascent": -11,
+            "height": 48,
+            "chars": ["\ue020\ue021\ue022\ue023"]
         }
     ]
 }

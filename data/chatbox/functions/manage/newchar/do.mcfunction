@@ -1,4 +1,4 @@
-function chatbox:sound/play
+execute if score #chatbox.sound.id loy.value matches 0.. if score #chatbox.sound.timer loy.value matches ..-1 run function chatbox:sound/play
 
 execute if score #chatbox.current.line loy.value matches 3.. run function chatbox:bossbar/clear/without_format
 
@@ -25,6 +25,7 @@ scoreboard players operation #chatbox.text.temp loy.value = #chatbox.max.length 
 scoreboard players operation #chatbox.text.temp loy.value -= #chatbox.combine.length loy.value
 execute if score #chatbox.text.temp loy.value matches 1.. run function chatbox:manage/newchar/zzz/1
 
+data modify storage chatbox:main HistoryBuffer append from storage chatbox:main Buffer[0]
 data remove storage chatbox:main Buffer[0]
 function chatbox:bossbar/set/line
 execute unless data storage chatbox:main Buffer[0] run function chatbox:manage/frame/icon/play

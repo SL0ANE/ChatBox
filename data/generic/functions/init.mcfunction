@@ -16,3 +16,4 @@ scoreboard players set #360 loy.value 360
 scoreboard players set #text.space.max loy.value 12
 
 forceload add 0 0
+setblock 0 -1 0 bedrock replace

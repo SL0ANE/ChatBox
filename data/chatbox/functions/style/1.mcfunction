@@ -1,16 +1,21 @@
 # 每行文本前端的留白长度
 scoreboard players set #chatbox.pre.length loy.value 60
-# 每行最大的长度
+# 每行文本前端的留白以及文本最大长度之和
+scoreboard players set #chatbox.content.length loy.value 220
+# 每行文本前端的留白与文本最大长度以及文本后端的留白之和
 scoreboard players set #chatbox.max.length loy.value 220
 # 文本出现的默认时间间隔
 scoreboard players set #chatbox.text.interval loy.value 0
-# 音效序号
-scoreboard players set #chatbox.sound loy.value 1
+
+# 音效序号(负数为无音效)
+scoreboard players set #chatbox.sound.id loy.value 1
+# 音效间隔
+scoreboard players set #chatbox.sound.interval loy.value 0
 
 # 对话框背景的宽度（不总是对话框贴图的宽度）
 scoreboard players set #chatbox.background.length loy.value 256
 # 对话框对应的图片
-data modify storage chatbox:main Background set value '{"text":"\\ue001","font": "custom:chatbox/background"}'
+data modify storage chatbox:main Background set value '{"text":"\\ue010","font": "custom:chatbox/background"}'
 
 # 该风格是否有角色头像(会在文字播放的同时播放)
 scoreboard players set #chatbox.character.flag loy.value 1
@@ -28,4 +33,4 @@ scoreboard players set #chatbox.icon.flag loy.value 0
 
 function chatbox:manage/frame/character/stop
 function chatbox:manage/frame/icon/disable
-function chatbox:manage/rerange
+function chatbox:manage/instant/method/rerange

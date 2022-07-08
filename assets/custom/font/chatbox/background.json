@@ -12,7 +12,14 @@
             "file": "custom:font/chatbox/background/1.png",
             "ascent": -4,
             "height": 64,
-            "chars": ["\ue001"]
+            "chars": ["\ue010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom:font/chatbox/background/2.png",
+            "ascent": -3,
+            "height": 64,
+            "chars": ["\ue020\ue021\ue022"]
         }
     ]
 }
