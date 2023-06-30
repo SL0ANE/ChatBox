@@ -1,0 +1,2 @@
+execute if score #text.input.1 loy.value matches 204 run data modify storage generic:main Temp[1] set value '{"text":"A","font":"custom:pixel","color":"#00CC00"}'
+execute if score #text.input.1 loy.value matches 205 run data modify storage generic:main Temp[1] set value '{"text":"A","font":"custom:pixel","color":"#00CD00"}'

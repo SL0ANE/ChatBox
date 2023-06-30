@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=entity.interact,tag=tag.interact.glowing] run function generic:entity/interaction/glowing/zzz/2

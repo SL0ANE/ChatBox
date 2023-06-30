@@ -1,0 +1,2 @@
+execute if score #math.input.0 loy.value matches 0.. run function generic:math/convert/int_uint16/positive
+execute if score #math.input.0 loy.value matches ..1 run function generic:math/convert/int_uint16/negative

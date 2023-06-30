@@ -1,0 +1,1 @@
+data modify storage generic:main EntityOutput set from entity @s CustomName

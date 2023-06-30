@@ -1,0 +1,2 @@
+execute if score #text.input.0 loy.value matches 160..163 run function generic:text/getcolorpixel/get_r/164
+execute if score #text.input.0 loy.value matches 164..167 run function generic:text/getcolorpixel/get_r/167

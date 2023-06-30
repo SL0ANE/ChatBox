@@ -1,0 +1,1 @@
+scoreboard players set #realtime.daylight.control loy.value 1

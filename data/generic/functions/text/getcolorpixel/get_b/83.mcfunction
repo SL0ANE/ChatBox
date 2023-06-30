@@ -1,0 +1,2 @@
+execute if score #text.input.2 loy.value matches 80..83 run function generic:text/getcolorpixel/get_b/84
+execute if score #text.input.2 loy.value matches 84..87 run function generic:text/getcolorpixel/get_b/87

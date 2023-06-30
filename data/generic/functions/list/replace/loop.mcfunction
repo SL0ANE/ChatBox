@@ -1,5 +1,5 @@
-data modify storage generic:main Temp append from storage generic:main List[0]
-execute store result score #list_output value run data get storage generic:main List[0]
-execute if score #list_output value = #list_index value store result storage generic:main Temp[-1] int 1 run scoreboard players get #list_input value
-data remove storage generic:main List[0]
-execute if data storage generic:main List[0] run function generic:generic/list/replace/loop
+data modify storage generic:main ListOutput0 append from storage generic:main ListInput0[0]
+execute if score #list.temp.0 loy.value matches 0 run function generic:list/replace/zzz/0
+data remove storage generic:main ListInput0[0]
+scoreboard players remove #list.temp.0 loy.value 1
+execute if data storage generic:main ListInput0[0] run function generic:list/replace/loop

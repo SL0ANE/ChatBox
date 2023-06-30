@@ -1,1 +1,1 @@
-data modify storage generic:main List set value []
+data modify storage agfa:main List set value []

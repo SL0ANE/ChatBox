@@ -1,0 +1,1 @@
+execute unless entity 00000000-0000-0000-0000-0dc800000000 run summon marker 0.0 0.0 0.0 {Tags:["ghost","loy.obj"],Rotation:[0.0f,0.0f],UUID:[I;0,0,3528,0]}

@@ -1,0 +1,58 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "generic:main"
+    },
+    "ops": [
+      {
+        "source": "ItemInput.display.Name",
+        "target": "display.Name",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "generic:main"
+    },
+    "ops": [
+      {
+        "source": "ItemInput.CustomModelData",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "generic:main"
+    },
+    "ops": [
+      {
+        "source": "ItemInput.display.Lore",
+        "target": "display.Lore",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "generic:main"
+    },
+    "ops": [
+      {
+        "source": "ItemInput.data",
+        "target": "data",
+        "op": "replace"
+      }
+    ]
+  }
+]

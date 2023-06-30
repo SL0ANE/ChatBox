@@ -1,0 +1,1 @@
+scoreboard players operation @s loy.generic.uid = #global loy.generic.uid

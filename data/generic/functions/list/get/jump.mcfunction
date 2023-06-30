@@ -1,3 +1,3 @@
-scoreboard players remove #list_index value 1
-data remove storage generic:main List[0]
-execute if score #list_index value matches 2.. run function generic:generic/list/get/jump
+scoreboard players remove #list.temp.0 loy.value 1
+data remove storage generic:main ListInput0[0]
+execute if score #list.temp.0 loy.value matches 1.. run function generic:list/get/jump

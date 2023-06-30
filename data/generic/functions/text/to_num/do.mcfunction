@@ -1,0 +1,10 @@
+execute if data storage generic:main {TextInput0:"0"} run scoreboard players set #text.output.0 loy.value 0
+execute if data storage generic:main {TextInput0:"1"} run scoreboard players set #text.output.0 loy.value 1
+execute if data storage generic:main {TextInput0:"2"} run scoreboard players set #text.output.0 loy.value 2
+execute if data storage generic:main {TextInput0:"3"} run scoreboard players set #text.output.0 loy.value 3
+execute if data storage generic:main {TextInput0:"4"} run scoreboard players set #text.output.0 loy.value 4
+execute if data storage generic:main {TextInput0:"5"} run scoreboard players set #text.output.0 loy.value 5
+execute if data storage generic:main {TextInput0:"6"} run scoreboard players set #text.output.0 loy.value 6
+execute if data storage generic:main {TextInput0:"7"} run scoreboard players set #text.output.0 loy.value 7
+execute if data storage generic:main {TextInput0:"8"} run scoreboard players set #text.output.0 loy.value 8
+execute if data storage generic:main {TextInput0:"9"} run scoreboard players set #text.output.0 loy.value 9

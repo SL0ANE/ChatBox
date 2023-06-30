@@ -1,4 +1,4 @@
-function chatbox:bossbar/clear/with_format
+function chatbox:bossbar/clear/json_with_format
 
 data modify storage chatbox:main InstantBuffer set from storage chatbox:main HistoryBuffer
 data modify storage chatbox:main HistoryBuffer set value []

@@ -25,7 +25,7 @@ scoreboard players operation #chatbox.combine.length loy.value += #chatbox.text.
 
 data modify storage generic:main TextInput0 set from storage chatbox:main CurrentCombine
 data modify storage generic:main TextInput1 set from storage chatbox:main CurrentText
-function generic:text/combine/with_format/do
+function generic:text/combine/json_with_format/do
 data modify storage chatbox:main CurrentCombine set from storage generic:main TextOutput
 
 data modify storage chatbox:main HistoryBuffer append from storage chatbox:main InstantBuffer[0]
